@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background-color: #1abc9c;
+  width: auto;
+  height: max-content;
+  background-position: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 10px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  display: flex;
+  background-color: #1d6855;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.confirmed-card, .death-card, .recovered-card {
+  height: 150px;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0 6px 7px 3px gray;
+  font-style: italic;
+  border-radius: 25px 0 25px 0px;
+}
+
+.confirmed-card {
+  background-color: goldenrod;
+}
+
+.death-card {
+  background-color: rgb(255, 0, 43);
+  color: white;
+}
+
+.recovered-card {
+  background-color: rgb(54, 54, 209);
+  color: white;
+}
+
+.title {
+  border-bottom: 5px solid #1abc9c;
+}
+
+select {
+  height: 40px;
+  border: none;
+  margin: 30px;
+  padding: 7px 10px;
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: #1d6855;
+  background-color: white;
+  box-shadow: 0 6px 7px 3px #1d6855;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
